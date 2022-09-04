@@ -1,12 +1,8 @@
 package com.example.fileStatus;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
@@ -14,7 +10,6 @@ import org.apache.commons.lang3.StringUtils;
 import com.opencsv.CSVReader;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
-import com.opencsv.bean.HeaderColumnNameMappingStrategy;
 
 public class CSVParser {
     
